@@ -130,10 +130,41 @@ img {
 
  /**tablet**/
 
-@media screen and ( max-width: 780px) {
+@media screen and ( max-width: 768px) {
 
     .container{
         width: 90%;
     }
     
+}
+
+@media screen and ( max-width: 480px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+    
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+
+    body {
+        background-color: black;
+    }
 }
